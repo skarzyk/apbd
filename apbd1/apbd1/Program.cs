@@ -2,7 +2,7 @@
 Console.WriteLine("Hello, World!");
 
 int x = 1;
-
+int x = 3;
 
 Console.WriteLine("Hello");
 
