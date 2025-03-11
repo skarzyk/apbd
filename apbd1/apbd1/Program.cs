@@ -1,10 +1,27 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 
-int x = 1;
-int x = 3;
+public static class ArrayUtils{
+    
+    public static double Average(int[] arr){
+        int sum = 0;
+        foreach (int number in arr)
+        {
+            sum += number;
+        }
+        return (double)sum / arr.Length;
+    }
 
-
+    public static int MaxValue(int[] arr){
+        int max = arr[0];
+        foreach (int number in arr){
+            if (number > max){
+                max = number;
+            }
+        }
+        return max;
+    }
+}
 Console.WriteLine("Hello");
-Console.WriteLine("Hello2");
+
 Console.WriteLine("Hello23");
