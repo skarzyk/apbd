@@ -3,7 +3,7 @@ Console.WriteLine("Hello, World!");
 
 public static class ArrayUtils{
     
-    public static double Average(int[] arr){
+    public static double AverageZad5(int[] arr){
         int sum = 0;
         foreach (int number in arr)
         {
